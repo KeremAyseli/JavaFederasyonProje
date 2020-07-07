@@ -9,7 +9,7 @@ package sporfederasyonu.proje;
  *
  * @author kerem ayseli
  */
-enum pozisyon{
+enum Mevki{
     defans,
     forvet,
     kaleci
@@ -20,13 +20,13 @@ public class Sporcular {
     int boy;
     int numara;
     String ülke;
-    pozisyon pozisyon;
+    Mevki Mevki;
     
     public String isimSöyle(){
         return this.isim;
     }
-    public pozisyon pozisyonunNey(){
-        return this.pozisyon;
+    public Mevki MevkiunNey(){
+        return this.Mevki;
     }
     public int yaşNey(){
         return this.yaş;
